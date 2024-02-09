@@ -8,10 +8,10 @@ import "strconv"
 import "time"
 
 import "github.com/spf13/cobra"
-import "github.com/gesquive/cli"
-import "github.com/gesquive/fast-cli/fast"
-import "github.com/gesquive/fast-cli/format"
-import "github.com/gesquive/fast-cli/meters"
+import "github.com/monostori/cli"
+import "fast-cli/fast"
+import "fast-cli/format"
+import "fast-cli/meters"
 
 var version = "v0.2.10"
 var dirty = ""
@@ -23,7 +23,7 @@ var notHTTPS bool
 var simpleProgress bool
 var showVersion bool
 
-//RootCmd is the only command
+// RootCmd is the only command
 var RootCmd = &cobra.Command{
 	Use:   "fast-cli",
 	Short: "Estimates your current internet download speed",
