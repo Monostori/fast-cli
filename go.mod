@@ -4,7 +4,6 @@ go 1.21.6
 
 require (
 	github.com/dustin/go-humanize v0.0.0-20170228161531-259d2a102b87
-	github.com/gesquive/cli v0.2.1
 	github.com/monostori/cli v0.2.0
 	github.com/spf13/cobra v1.8.0
 )

@@ -5,7 +5,7 @@ import "bytes"
 import "net/http"
 import "io"
 import "regexp"
-import "github.com/gesquive/cli"
+import "github.com/monostori/cli"
 
 // UseHTTPS sets if HTTPS is used
 var UseHTTPS = true
