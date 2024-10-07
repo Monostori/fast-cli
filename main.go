@@ -9,11 +9,11 @@ import "time"
 
 import "github.com/spf13/cobra"
 import "github.com/monostori/cli"
-import "fast-cli/fast"
-import "fast-cli/format"
-import "fast-cli/meters"
+import "github.com/monostori/fast-cli/fast"
+import "github.com/monostori/fast-cli/format"
+import "github.com/monostori/fast-cli/meters"
 
-var version = "v0.2.10"
+var version = "v0.3.0"
 var dirty = ""
 var displayVersion string
 
