@@ -1,4 +1,4 @@
-module fast-cli
+module github.com/monostori/fast-cli
 
 go 1.21.6
 

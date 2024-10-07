@@ -9,9 +9,9 @@ fast-cli estimates your current internet download speed by performing a series o
 ## Installing
 
 ### Compile
-This project requires go 1.20+ to compile. Just run `go get -u github.com/gesquive/fast-cli` and the executable should be built for you automatically in your `$GOPATH`.
+This project requires go 1.20+ to compile. Just run `go install github.com/monostori/fast-cli` and the executable should be built for you automatically in your `$GOPATH`.
 
-Optionally you can run `make install` to build and copy the executable to `/usr/local/bin/` with correct permissions.
+Optionally you can run `go build .` to build it.
 
 Once you have an executable, make sure to copy it somewhere on your path like `/usr/local/bin` or `C:/Program Files/`.
 If on a \*nix/mac system, make sure to run `chmod +x /path/to/fast-cli`.
